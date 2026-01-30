@@ -7,7 +7,7 @@
  /* Hero Section Start */
 .container 
 {
-    background: linear-gradient(rgba(0, 0, 0, .64)),url("/images/hero-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .64)),url("images/hero-bg.jpg");
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -558,7 +558,7 @@ justify-content: center;
 
 .monthly-sale {
 
-background: url('/images/1.jpg');
+background: url('images/1.jpg');
 background-size: cover;
   display: flex;
   align-items: center;
