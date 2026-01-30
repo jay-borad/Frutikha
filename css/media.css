@@ -1,0 +1,204 @@
+@media(max-width:768px)
+{
+   .container{
+        height: 500px;
+    
+
+   }
+   .row{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+   }
+   .logo img{
+    width: 150px;
+   }
+    .Header-info .icons i:last-child
+    {
+        display: inline-block;
+        background: #F28123;
+        padding: 10px;
+        color: black;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+.header{
+    height: 100%;
+
+}
+    .icons{
+        width: 100px;
+    }
+    .icons i:nth-child(2){
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .banner-info-main{
+        width: 100%;
+    }
+
+    .banner-info h1
+    {
+        font-size: 40px;
+    
+    }
+.banner-info{
+    
+    height: 300px;
+    width: 100%;
+}
+    .infobtn
+    {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .infobtn button
+    {
+ 
+        width: 100%;
+     
+    }
+    .main-product-info{
+        width: 100%;
+    }
+    .services{
+    
+        display: flex;
+        justify-content: start;
+    }
+    .boxs{
+        width: 300px;
+    }
+    .description{
+        height: auto;
+    }
+    .product-deal{
+        height: auto;
+        width: 100%;
+    padding: 50px;
+    }
+
+     
+    
+    .product-discount,.product-sale{
+        width: 100%;
+        
+    }
+     .product-discount{
+        height: 250px;
+     }
+     .product-sale{
+        height: auto;
+     }
+     .time-counter{
+        height: auto;
+     }
+     
+     
+     .client{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 0px;
+        padding: 30px 40px;
+     }
+     .client-photo{
+        width: 100%;
+     }
+    
+     .adv-col-video
+     {
+       display: none;
+     }
+     .adv-col
+     {
+       width: 100%;
+     }
+    .sale-content
+    {
+        max-width: 100%;
+    }
+     .card
+     {
+        width: 300px;
+     }
+
+     .main-card
+     {
+        display: flex;
+        gap: 10px;
+     }
+
+
+     .footer,.footer-col,.footer-Box-Page,.footer-col
+     {
+       width: 100%;
+     }
+
+     .copyright-col
+     {
+        
+        width: 50%;
+        
+     }
+     /* .logo-3
+     {
+        display: none;
+     } */
+      .monthly-sale{
+        
+        width: 100%;
+        padding: 20px 30px;
+      }
+      .copyright-row{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .copyright-col{
+        width: 100%;
+        text-align: center;
+      }
+}
+
+
+@media(max-width:320px)
+{
+  
+    .infobtn
+    {
+    
+    }
+
+   .banner-info h1 
+   {
+    font-size: 30px;
+   }
+
+
+     .logo-1 ,.logo-2,.logo-3
+     {
+       display: none;
+     }
+
+     .logo-section
+     {
+        padding: 0px;
+       
+     }
+
+      .copyright-col
+      {
+        margin-left: 0;
+      }
+      
+
+   }
